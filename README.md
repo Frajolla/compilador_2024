@@ -15,25 +15,26 @@
   exemplos: 
 
   main
-  
     i_lado1, i_lado2, i_total;
     i_lado1, i_lado2 = 2;
     i_total = i_lado1 * i_lado2;
-    
   end
 
 ## Outros exemplos
 
   main
-  
-    s_nome;
+    s_nome, i_idade;
     read("Digite seu nome: ", s_nome);
-    if nome == "Carlos"
-      writeln("Seja bem vindo Carlos!");
-    elif nome == "Carla"
-      writeln("Seja bem vinda Carla!");
-    else:
-      writeln("Seja bem vindo " + s_nome);
+    read("Digite sua idade: ", i_idade);
+    if i_idade > -1 && i_idade < 120
+      writeln("Seja bem vindo ", s_nome, "!");
+    elif i_idade < 0
+      writeln("Voce nao nasceu ainda? Idade invalida!");
+    else
+      writeln("Ninguem e tao velho assim! Idade invalida!");
     end;
-    
   end
+  
+  main
+    b_state;
+    b_state = False;
