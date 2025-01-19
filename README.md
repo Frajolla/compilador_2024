@@ -88,7 +88,5 @@ main<br>
 
   read (i_baseMaior, i_baseMenor, i_altura);
   f_area = (i_baseMaior + i_baseMenor ) * i_altura / 2;
-  write (f_area);
-
-end
-</pre>
+  write (f_area);<br>
+end</pre>
