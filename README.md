@@ -37,10 +37,12 @@ end
 <h2>Comentários de bloco</h2>
 <p>Segue o padrão: >@[Tabulação vertical][Texto desejado, sem espaços no final][Tabulação vertical]@<
 <p><b>Exemplo:</b></p>
+<pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
 <p>>@<br>
      Comentário de bloco<br>
 @<</p>
-                                                                                                      
+</pre>
+  
 <h2>Outros Exemplos</h2>
 <br>
 Comandos de leitura e seleção:
