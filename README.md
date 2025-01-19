@@ -28,46 +28,42 @@ end
 <h2>Outros Exemplos</h2>
 
 ```python
-<pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc; color:#333;">
-<span style="color:blue;">main</span>
+main
   
-    <span>s_nome</span>, <span>i_idade</span>;
+    s_nome, i_idade;
   
-    <span style="color:purple;">read</span>(<span style="color:light-green;">"Digite seu nome: "</span>, <span>s_nome</span>);
-    <span style="color:purple;">read</span>(<span style="color:light-green;">"Digite sua idade: "</span>, <span>i_idade</span>);
+    read("Digite seu nome: ", s_nome);
+    read("Digite sua idade: ", i_idade);
   
-    <span style="color:blue;">if</span> <span style="color:purple;">i_idade</span> > -1 && <span style="color:purple;">i_idade</span> < 120
-      <span style="color:green;">writeln</span>(<span style="color:orange;">"Seja bem vindo "</span>, <span style="color:purple;">s_nome</span>, <span style="color:orange;">"!"</span>);
-    <span style="color:blue;">elif</span> <span style="color:purple;">i_idade</span> < 0
-      <span style="color:green;">writeln</span>(<span style="color:orange;">"Voce nao nasceu ainda? Idade invalida!"</span>);
-    <span style="color:blue;">else</span>
-      <span style="color:green;">writeln</span>(<span style="color:orange;">"Ninguem e tao velho assim! Idade invalida!"</span>);
-    <span style="color:blue;">end</span>;
+    if i_idade > -1 && i_idade < 120
+      writeln("Seja bem vindo ", s_nome, "!");
+    elif i_idade < 0
+      writeln("Voce nao nasceu ainda? Idade invalida!");
+    else
+      writeln("Ninguem e tao velho assim! Idade invalida!");
+    end;
       
-<span style="color:blue;">end</span>
-</pre>
+end
 
-<pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc; color:#333;">
-<span style="color:blue;">main</span>
+main
   
-    <span style="color:purple;">i_num1</span>, <span style="color:purple;">i_num2</span>;
-    <span style="color:purple;">i_num1</span>, <span style="color:purple;">i_num2</span> = 10;
+    i_num1, i_num2;
+    i_num1, i_num2 = 10;
   
-    <span style="color:green;">write</span>(<span style="color:purple;">i_num1</span>);
-    <span style="color:blue;">repeat</span>
-      <span style="color:purple;">i_num1</span> = <span style="color:purple;">i_num1</span> - 1;
-      <span style="color:green;">write</span>(<span style="color:orange;">","</span>, <span style="color:purple;">i_num1</span>);
-    <span style="color:blue;">while</span> <span style="color:purple;">i_num1</span> > 0;
+    write(i_num1);
+    repeat
+      i_num1 = i_num1 - 1;
+      write(",", i_num1);
+    while i_num1 > 0;
   
-    <span style="color:green;">writeln</span>(<span style="color:orange;">""</span>);
-    <span style="color:green;">write</span>(<span style="color:purple;">i_num2</span>);
-    <span style="color:blue;">repeat</span>
-      <span style="color:purple;">i_num2</span> = <span style="color:purple;">i_num2</span> - 1;
-      <span style="color:green;">write</span>(<span style="color:orange;">","</span>, <span style="color:purple;">i_num2</span>);
-    <span style="color:blue;">until</span> <span style="color:purple;">i_num2</span> == 0;
+    writeln("");
+    write(i_num2);
+    repeat
+      i_num2 = i_num2 - 1;
+      write(",", i_num2);
+    until i_num2 == 0;
   
-    <span style="color:green;">writeln</span>(<span style="color:orange;">""</span>);
-    <span style="color:green;">writeln</span>(<span style="color:orange;">"Programa Finalizado!"</span>);
+    writeln("");
+    writeln("Programa Finalizado!");
   
-<span style="color:blue;">end</span>
-</pre>
+end
