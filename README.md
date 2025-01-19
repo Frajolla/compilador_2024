@@ -34,7 +34,9 @@ main<br>
   
 end
 </pre>
-
+<h2>Comentários de bloco</h2>
+<p>Segue o padrão: >@[Tabulação vertical][Texto desejado, sem espaços no final][Tabulação vertical]@<
+                                                                                                      
 <h2>Outros Exemplos</h2>
 <br>
 Comandos de leitura e seleção:
@@ -76,7 +78,7 @@ end
 <br>
 Expressões aritméticas
 <pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
-main
+main<br>
   i_baseMaior, i_baseMenor, i_altura, f_area;
 
   read (i_baseMaior, i_baseMenor, i_altura);
