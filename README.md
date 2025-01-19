@@ -57,11 +57,7 @@ Comandos de repetição:
 <pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
 main<br>
     i_num1, i_num2;
-    i_num1, i_num2 = 10;
-  
->@
-    Repetição while
-@<
+    i_num1, i_num2 = 10;<br>
     write(i_num1);
     repeat
       i_num1 = i_num1 - 1;
@@ -69,9 +65,6 @@ main<br>
     while i_num1 > 0;<br>
     writeln("");
     write(i_num2);
->@
-    Repetição until
-@<
     repeat
       i_num2 = i_num2 - 1;
       write(",", i_num2);
