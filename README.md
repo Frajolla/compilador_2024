@@ -10,6 +10,7 @@
 <p>5. Para executar o programa abra o prompt de comandos e acesse o diretório onde um <code>.IL</code> foi gerado na compilação do programa.</p>
 <p>6. Digite <code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ilasm exemplo.il</code>, onde exemplo.il será o nome do arquivo salvo.</p>
 <p>7. Digite <code>exemplo.exe</code> para executar o arquivo.</p>
+<br>
 <h1 style="color:green;">Linguagem</h1>
 
 <h2>Declaração</h2>
