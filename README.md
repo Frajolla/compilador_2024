@@ -1,7 +1,9 @@
 <h1 style="color:blue;">Compilador</h1>
-<p>Os códigos léxico e sintático foram gerados através do GALS, uma ferramenta geradora de código léxico e semântico. O arquivo com as especificações gramaticais está em <code>"gals.gals"</code>.</p>
+<p>Os códigos léxico e sintático foram gerados através do GALS, uma ferramenta geradora de código léxico e sintático. O arquivo com as especificações gramaticais está em <code>"gals.gals"</code>.</p>
 <p>A implementação foi feita utilizando a linguagem C#, aplicando uma GUI e criando as regras semânticas, que após foram convertidas à linguagem de máquina (<b>MSIL - Microsoft Intermediate Language</b>), gerando um objeto executável.</p>
 
+<h2>Instruções</h2>
+<p>A
 <h1 style="color:green;">Linguagem</h1>
 
 <h2>Declaração</h2>
@@ -27,39 +29,62 @@ end
 </pre>
 
 <h2>Outros Exemplos</h2>
-
-
+<br>
+Comandos de leitura e seleção:
 <pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
-main
+main<br>
     s_nome, i_idade;
+  
     read("Digite seu nome: ", s_nome);
     read("Digite sua idade: ", i_idade);
+  
     if i_idade > -1 && i_idade < 120
       writeln("Seja bem vindo ", s_nome, "!");
     elif i_idade < 0
       writeln("Voce nao nasceu ainda? Idade invalida!");
     else
       writeln("Ninguem e tao velho assim! Idade invalida!");
-    end;
+    end;<br>
 end
 </pre>
-
+<br>
+Comandos de repetição:
 <pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
-main
+main<br>
+    
     i_num1, i_num2;
     i_num1, i_num2 = 10;
+  
+>@
+    Repetição while
+@<
     write(i_num1);
     repeat
       i_num1 = i_num1 - 1;
       write(",", i_num1);
     while i_num1 > 0;
+  
     writeln("");
     write(i_num2);
+>@
+    Repetição until
+@<
     repeat
       i_num2 = i_num2 - 1;
       write(",", i_num2);
     until i_num2 == 0;
+  
     writeln("");
-    writeln("Programa Finalizado!");
+    writeln("Programa Finalizado!");<br>
 end
 </pre>
+<br>
+Expressões aritméticas
+main
+  i_baseMaior, i_baseMenor, i_altura, f_area;
+
+  read (i_baseMaior, i_baseMenor, i_altura);
+  f_area = (i_baseMaior + i_baseMenor ) * i_altura / 2;
+  write (f_area);
+
+end
