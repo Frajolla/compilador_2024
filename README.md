@@ -40,8 +40,7 @@ end
 <pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
 <p>>@
      Comentário de bloco
-@<</p>
-</pre>
+@<</p></pre>
   
 <h2>Outros Exemplos</h2>
 <br>
