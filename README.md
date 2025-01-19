@@ -11,7 +11,7 @@
 <p>6. Digite <code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ilasm exemplo.il</code>, onde exemplo.il será o nome do arquivo salvo.</p>
 <p>7. Digite <code>exemplo.exe</code> para executar o arquivo.</p>
 <br>
-<h1 style="color:green;">Linguagem</h1>
+<h1">Linguagem</h1>
 <br>
 <h2>Declaração</h2>
 <p>Todas as variáveis possuem a tipagem especificada no próprio nome da variável, tendo como prefixo:</p>
@@ -40,11 +40,9 @@ end
 Comandos de leitura e seleção:
 <pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
 main<br>
-    s_nome, i_idade;
-  
+    s_nome, i_idade;<br>
     read("Digite seu nome: ", s_nome);
-    read("Digite sua idade: ", i_idade);
-  
+    read("Digite sua idade: ", i_idade);<br>    
     if i_idade > -1 && i_idade < 120
       writeln("Seja bem vindo ", s_nome, "!");
     elif i_idade < 0
