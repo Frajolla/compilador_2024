@@ -1,5 +1,5 @@
 <h1 style="color:blue;">Compilador</h1>
-<p>Os códigos léxico e sintático foram gerados através do GALS, uma ferramenta geradora de código léxico e sintático. O arquivo com as especificações gramaticais estão em <code>"gals.gals"</code>.</p>
+<p>Os códigos léxico e sintático foram gerados através do GALS, uma ferramenta geradora de código léxico e sintático. O arquivo com as especificações gramaticais estão em <code>gals.gals</code>.</p>
 <p>A implementação foi feita utilizando a linguagem C#, aplicando uma GUI e criando as regras semânticas, que após foram convertidas à linguagem de máquina (<b>MSIL - Microsoft Intermediate Language</b>), gerando um objeto executável.</p>
 
 <h2>Instruções</h2>
