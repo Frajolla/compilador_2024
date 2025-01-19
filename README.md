@@ -12,7 +12,7 @@
 <p>7. Digite <code>exemplo.exe</code> para executar o arquivo.</p>
 <br>
 <h1 style="color:green;">Linguagem</h1>
-
+<br>
 <h2>Declaração</h2>
 <p>Todas as variáveis possuem a tipagem especificada no próprio nome da variável, tendo como prefixo:</p>
 <ul>
