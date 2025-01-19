@@ -38,8 +38,8 @@ end
 <p>Segue o padrão: >@[Tabulação vertical][Texto desejado, sem espaços no final][Tabulação vertical]@<
 <p><b>Exemplo:</b></p>
 <pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
-<p>>@<br>
-     Comentário de bloco<br>
+<p>>@
+     Comentário de bloco
 @<</p>
 </pre>
   
