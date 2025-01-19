@@ -18,23 +18,22 @@
 
 <p><b>Exemplo:</b></p>
 <pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
-main
+main<br>  
     i_lado1, i_lado2, i_total;
     i_lado1, i_lado2 = 2;
-    i_total = i_lado1 * i_lado2;
+    i_total = i_lado1 * i_lado2;<br>
+  
 end
 </pre>
 
 <h2>Outros Exemplos</h2>
 
-```python
+
+<pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
 main
-  
     s_nome, i_idade;
-  
     read("Digite seu nome: ", s_nome);
     read("Digite sua idade: ", i_idade);
-  
     if i_idade > -1 && i_idade < 120
       writeln("Seja bem vindo ", s_nome, "!");
     elif i_idade < 0
@@ -42,28 +41,25 @@ main
     else
       writeln("Ninguem e tao velho assim! Idade invalida!");
     end;
-      
 end
+</pre>
 
+<pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
 main
-  
     i_num1, i_num2;
     i_num1, i_num2 = 10;
-  
     write(i_num1);
     repeat
       i_num1 = i_num1 - 1;
       write(",", i_num1);
     while i_num1 > 0;
-  
     writeln("");
     write(i_num2);
     repeat
       i_num2 = i_num2 - 1;
       write(",", i_num2);
     until i_num2 == 0;
-  
     writeln("");
     writeln("Programa Finalizado!");
-  
 end
+</pre>
