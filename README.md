@@ -37,8 +37,8 @@ end
 <h2>Comentários de bloco</h2>
 <p>Segue o padrão: >@[Tabulação vertical][Texto desejado, sem espaços no final][Tabulação vertical]@<
 <p><b>Exemplo:</b></p>
-<p>@<br>
-    Comentário de bloco<br>
+<p>>@<br>
+     Comentário de bloco<br>
 @<</p>
                                                                                                       
 <h2>Outros Exemplos</h2>
