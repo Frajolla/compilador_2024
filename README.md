@@ -27,6 +27,7 @@ end
 
 <h2>Outros Exemplos</h2>
 
+```python
 <pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc; color:#333;">
 <span style="color:blue;">main</span>
   
