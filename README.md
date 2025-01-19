@@ -3,7 +3,14 @@
 <p>A implementação foi feita utilizando a linguagem C#, aplicando uma GUI e criando as regras semânticas, que após foram convertidas à linguagem de máquina (<b>MSIL - Microsoft Intermediate Language</b>), gerando um objeto executável.</p>
 
 <h2>Instruções</h2>
-<p>A
+<p>1. Execute o programa através da pasta <code>bin/Debug/net8.0-windows</code> ou diretamente por uma IDE.</p>
+<p>2. Digite o código desejado de acordo com a linguagem apresentada na próxima sessão.</p>
+<p>3. Salve o arquivo em um diretório</p>
+<p>4. Compile a programa pelo botão <code>Compilar</code> ou pela tecla de atalho f7.</p>
+<p>5. Um arquivo <code>.IL</code> será gerado no mesmo diretório que o arquivo foi salvo.</p>
+<p>6. Para executar o programa abra o prompt de comandos e acesse o diretório onde se encontra o arquivo <code>.IL</code></p>
+<p>7. Digite <code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ilasm exemplo.il</code>, onde exemplo.il será o nome do arquivo salvo</p>
+<p>8. Digite <code>exemplo.exe</code> para executar o arquivo</p>
 <h1 style="color:green;">Linguagem</h1>
 
 <h2>Declaração</h2>
@@ -80,6 +87,7 @@ end
 </pre>
 <br>
 Expressões aritméticas
+<pre style="background-color:#f4f4f4;padding:10px;border-left:5px solid #ccc;">
 main
   i_baseMaior, i_baseMenor, i_altura, f_area;
 
@@ -88,3 +96,4 @@ main
   write (f_area);
 
 end
+</pre>
